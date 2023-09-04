@@ -1,0 +1,27 @@
+.add-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+    font-family: Raleway;
+    margin-bottom: 1.4rem;
+}
+
+.categories {
+    border-radius: 4px;
+    background: #FFF;
+    width: 28rem;
+    height: 3.5rem;
+    border: none;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .categories{
+        max-width: 13rem;
+    }
+}
+
+

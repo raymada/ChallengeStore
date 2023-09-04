@@ -1,0 +1,53 @@
+.banner{
+    width: 100%; 
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 64px;
+  }
+
+.banner-img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 100%; /* La imagen ocupará todo el alto del contenedor */
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra completamente el contenedor */
+}
+
+.banner-text {
+    position: absolute; /* Posiciona el texto de manera absoluta dentro del contenedor */
+    top: 50%; /* Ajusta la posición verticalmente al 50% del contenedor */
+    left: 20%; /* Ajusta la posición horizontalmente al 50% del contenedor */
+    transform: translate(-50%, -50%); /* Centra el texto horizontal y verticalmente */
+    color: #fff; /* Cambia el color del texto */
+    font-size: 36px; /* Ajusta el tamaño del texto */
+    text-align: left; /* Alinea el texto al centro */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejorar la legibilidad */
+}
+
+.banner-text2{
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+.btn-SeeConsoles{
+    position: absolute;
+    top: 80%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    padding: 8px 50px;
+    font-size: 16px;
+    background: #2A7AE4;
+    color: #FFF;
+    border: 2px solid #0d99ff;
+    border-radius: 115px;
+    cursor: pointer;
+    transition: background-color 1s, box-shadow 1s;
+}
+
+.btn-SeeConsoles:hover{
+    background-color: #6ac1ff; /* Cambia el color de fondo cuando se hace hover */
+    border-color: #6ac1ff;
+    color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra cuando se hace hover */
+  }
+
+
+  

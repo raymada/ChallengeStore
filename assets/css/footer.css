@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaf2fd;
+    padding: 64px ;
+}
+ 
+.footer-nav {
+    color: #eaf2fd;
+    text-align: center;
+    line-height: 2;
+    margin-right: 112px;
+    margin-left: 112px;
+}
+
+.footer-nav a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-nav a:hover {
+    color: #2A7AE4;
+    
+}
+
+.footer-enlace {
+    margin: 0 .5rem .7rem;
+}
+
+.btn-msj {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-msj{
+    color: #464646;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    max-width: 300px;
+    margin-top: 1rem;
+}
+
+.footer-msj input{
+    width: 100%;
+    margin-bottom: 16px;
+    color: #A2A2A2;
+    font-weight: 400;
+    border: none;
+    background: #Fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-msj input:focus {
+    outline: none;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 200px 27px 10px;
+    margin-top: 24px;
+    
+}
+
+.msj{
+    font-size: 16px;
+    padding: 8px 200px 48px 10px;
+}
+
+.btn-msj{
+    position: absolute;
+    padding: 16px;
+    gap: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background: #2A7AE4;
+    cursor: pointer;
+    color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-msj:hover {
+    background-color: #1A589E; 
+}
